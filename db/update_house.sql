@@ -1,0 +1,1 @@
+update houses set name = $2, address = $3, city = $4, state = $5, zipcode = $6 where id = $1;
